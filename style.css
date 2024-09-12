@@ -67,11 +67,7 @@ nav ul li a::after {
     transition: transform 0.3s;
 }
 
-nav ul li a:hover::after,
-nav ul li a.active::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
+nav ul li a:hover::after
 
 main {
     padding: 2em 0;
